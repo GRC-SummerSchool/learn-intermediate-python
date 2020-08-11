@@ -56,7 +56,7 @@ class IVCurve:
 
 
 if __name__ == "__main__":
-    ivc = IVCurve("examples/iv-curves/data/2K.txt")
+    ivc = IVCurve("data/2K.txt")
 
     plt.figure()
     plt.subplot(221)

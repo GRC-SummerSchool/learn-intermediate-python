@@ -1,4 +1,4 @@
-from ivcurve import IVCurve
+from .ivcurve import IVCurve
 from os import listdir
 import matplotlib.pyplot as plt
 import matplotlib.colors as colors
@@ -72,10 +72,8 @@ class Experiment:
 
 
 if __name__=="__main__":
-    import os
-    os.chdir('/Users/izzy/Codebase/learn-python')
 
-    experiment = Experiment("examples/iv-curves/data/")
+    experiment = Experiment("data/")
 
     experiment.plot_iv()
 

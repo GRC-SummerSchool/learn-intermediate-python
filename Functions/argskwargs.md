@@ -3,7 +3,7 @@
 
 # Arguments and Keyword Arguments
 
-_Before beginning this section, you should be comfortable with the [basics of functions](../../Day3/Functions.md) and [pointers](../pointers.md)._
+_Before beginning this section, you should be comfortable with the [basics of functions](https://github.com/GRC-SummerSchool/learn-python/blob/master/Day3/Functions.md) and [pointers](../pointers.md)._
 
 Computer functions, like math functions, can have multiple arguments:
 

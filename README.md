@@ -1,59 +1,38 @@
-# GRC-SummerSchool Learn Python.
+# Intermediate Python Topics
 
-This course is designed to provide an introduction to programming using Python. The 
-course is geared toward folks with a scientific background and is structured to be 
-completed in approximately four 45 minute sessions.
+These notes are intended to give some further reading and intermediate techniques once you're grasped the basics from [The GRC Summer School's Basic Python Course](https://github.com/GRC-SummerSchool/learn-python/)
 
-Over the four sessions, the class will build from the basics of the Python
-language to using more advanced modules capable of plotting and analyzing 
-data.
 
-## Day 1
+0. [Exceptions](exceptions.md)
+1. [Pointers](pointers.md)
+2. Context Managers
+3. Regular Expressions
 
-On the first day, the class will setup a Python environment on your laptop
-and cover the basics of the Python language.
+## Functions
 
-1. [Setup Environment](Day1/Setup.md)
-2. [Session Objectives](Day1/SessionObjectives.md)
-3. [Quick Intro to Python](Day1/PythonIntro.md)
-4. [Hello World](Day1/HelloWorld.md)
-5. [Python Editing](Day1/PythonEditing.md)
-6. [Variables](Day1/Variables.md)
-6. [Expressions](Day1/Expressions.md)
-7. [Input](Day1/Input.md)
+This section deals with the in-depth mechanics of functions, and how you can leverage them to create programs that otherwise would not be possible.
 
-## Day 2
+1. [Args and Kwargs](Functions/argskwargs.md)
+2. [Recursion](Functions/recursion.md)
+3. [Function Handles](Functions/functionhandles.md)
+4. [Generators](Functions/generators.md)
 
-On the second day, the class will introduce looping and an additional data 
-structure. More advanced features of the development environment will be shown.
+## Object-Oriented Programming
 
-1. [Lists](Day2/Lists.md)
-2. [Conditionals](Day2/Conditionals.md)
-3. [Loops](Day2/Loops.md)
-4. [Dictionaries](Day2/Dictionaries.md)
+This section teaches the basics of classes and OOP in Python.
 
-## Day 3
+1. [Introduction](Classes/introduction.md)
+2. [Classes](Classes/classes.md)
+3. [Inheritance](Classes/inheritance.md)
+4. [Magic Methods](Classes/magicmethod.md)
+5. [In-Depth Example](Classes/example/README.md)
 
-On the third day, the class will discuss basic code organization and some basics on how to troubleshoot and validate programs.
+## Future Lessons
 
-1. [Debugging](Day3/Debugging.md)
-2. [Functions](Day3/Functions.md)
-3. [Modules](Day3/Modules.md)
-4. [Software Testing](Day3/Testing.md)
+Keep an eye out for the following topics in the future!
 
-## Day 4
-
-On the fourth day, more advanced operations will be covered allowing for reading 
-data files and generating plots. All the previous topics will be combined to build a simple 
-analytic for processing data and displaying the results.
-
-1. [Source Code Management](Day4/GitOverview.md)
-2. [Weather Analysis Overview](Day4/WeatherAnalysisOverview.md)
-3. [File I/O](Day4/CSVFiles.md)
-4. [Simple Plotting](Day4/SimplePlotting.md)
-
-## Extra material
-1. [Git - Saving your work](Extra/GitChanges.md)
-2. [Git - Collaborating](Extra/GitBranch.md)
-3. [Data Analysis](Extra/DataAnalysis.md)
-4. [Additional Resources](AdditionalResources.md)
+- Miscellaneous Data structures: Queues, Stacks, and Graphs
+- Databases
+- Multi-threading and parallelism
+- Communicating with measurement instruments
+- Introduction to creating GUIs

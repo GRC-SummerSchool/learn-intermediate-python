@@ -6,7 +6,7 @@
 
 _Familiarity with numpy and matplotlib modules recommended._
 
-This section demonstrates how to use classes to represent the data found in [the iv-curve example](../../../examples/iv-curves).
+This section demonstrates how to use classes to represent the data found in [the original iv-curve example](https://github.com/GRC-SummerSchool/learn-python/blob/master/examples/iv-curves/README.md).
 
 ## Step 1: Determine appropriate structure
 To understand what an appropriate class structure for the analysis is, you must first understand what you're trying to represent.

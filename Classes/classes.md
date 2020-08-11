@@ -80,7 +80,7 @@ You can also access a method by using the class name and explicitly passing in t
 - Write a Rectangle class that has width, height, area, and perimeter attributes. Add a `grow` method that multiplies the area by a fixed amount
 by adjusting the width/height without changing the aspect ratio. Add a `isbigger` method that takes another rectangle as an input, and returns True if
 the current rectangle has a larger area, False otherwise.
-- Look at the data files in [the IV-Curve example](../../examples/iv-curves). The first column represents the voltage a measurement was taken at, the rest represent current.
+- Look at the data files in [the IV-Curve example](../examples/iv-curves). The first column represents the voltage a measurement was taken at, the rest represent current.
 What would the data file look like as a class? What attributes might it have?
 
 ## Static vs Dynamic variables
